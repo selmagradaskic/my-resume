@@ -1,0 +1,112 @@
+.body {
+    background-color: #343A40;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.loan {
+    width: 900px;
+    height: auto;
+}
+
+.animation {
+    width: 900px;
+    height: auto;
+}
+
+.tictactoe {
+    width: 900px;
+    height: auto;
+}
+
+.joptions {
+    width: 900px;
+    height: auto;
+}
+
+.pgadmin{
+    width: 900px;
+    height: auto;
+}
+
+.movie {
+    width: 900px;
+    height: auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    color: #E9ECEF;
+}
+
+.homepage {
+    list-style: none;
+}
+
+.goback {
+    background-color: #E9ECEF;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.goback:hover {
+    background-color: transparent;
+
+}
+
+@media (max-width: 800px) {
+    
+.projects {
+    display: flex;
+    flex-direction: column;
+    font-size: 70%;
+    
+}
+
+
+.loan {
+    width: 100%;
+    height: auto;
+}
+
+.animation {
+    width: 100%;
+    height: auto;
+}
+
+.tictactoe {
+    width: 100%;
+    height: auto;
+}
+
+.joptions {
+    width: 100%;;
+    height: auto;
+}
+
+.pgadmin {
+    width: 100%;;
+    height: auto;
+}
+
+.movie{
+    width: 100%;
+    height: auto;
+}
+
+.goback {
+    width: 30%;
+    font-size: 80%;
+    height: auto;
+    font-family: fantasy;
+}
+
+
+}
